@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.0.3 Jun 25, 2022
+
+**Experimental** Please see the comments on 0.0.0-1 for the experimental nature of this bundle.
+
+- it works again
+
 ## 0.0.2 Jun 25, 2022
 
 **Experimental** Please see the comments on 0.0.0-1 for the experimental nature of this bundle.
