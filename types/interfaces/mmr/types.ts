@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Struct } from 'https://deno.land/x/polkadot@0.0.0-10/types-codec/mod.ts';
-import type { BlockHash } from 'https://deno.land/x/polkadot@0.0.0-10/types/interfaces/chain/index.ts';
+import type { Bytes, Struct } from 'https://deno.land/x/polkadot@0.0.0-11/types-codec/mod.ts';
+import type { BlockHash } from 'https://deno.land/x/polkadot@0.0.0-11/types/interfaces/chain/index.ts';
 
 /** @name MmrLeafBatchProof */
 export interface MmrLeafBatchProof extends Struct {

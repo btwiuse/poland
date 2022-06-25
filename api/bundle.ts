@@ -1,10 +1,10 @@
 // Copyright 2017-2022 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import 'https://deno.land/x/polkadot@0.0.0-10/rpc-augment/mod.ts';
+import 'https://deno.land/x/polkadot@0.0.0-11/rpc-augment/mod.ts';
 
-export { Keyring } from 'https://deno.land/x/polkadot@0.0.0-10/keyring/mod.ts';
-export { WsProvider, HttpProvider } from 'https://deno.land/x/polkadot@0.0.0-10/rpc-provider/mod.ts';
+export { Keyring } from 'https://deno.land/x/polkadot@0.0.0-11/keyring/mod.ts';
+export { WsProvider, HttpProvider } from 'https://deno.land/x/polkadot@0.0.0-11/rpc-provider/mod.ts';
 
 export { packageInfo } from './packageInfo.ts';
 export { SubmittableResult } from './submittable/index.ts';

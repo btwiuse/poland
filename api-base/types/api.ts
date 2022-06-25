@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'https://esm.sh/rxjs@7.5.5';
-import type { DecoratedRpc, QueryableConsts, QueryableStorage, QueryableStorageMulti, SubmittableExtrinsics } from 'https://deno.land/x/polkadot@0.0.0-10/api-base/types/index.ts';
-import type { RpcInterface } from 'https://deno.land/x/polkadot@0.0.0-10/rpc-core/types/index.ts';
-import type { Metadata } from 'https://deno.land/x/polkadot@0.0.0-10/types/mod.ts';
-import type { Hash, RuntimeVersion } from 'https://deno.land/x/polkadot@0.0.0-10/types/interfaces/index.ts';
-import type { Registry, Signer } from 'https://deno.land/x/polkadot@0.0.0-10/types/types/index.ts';
+import type { DecoratedRpc, QueryableConsts, QueryableStorage, QueryableStorageMulti, SubmittableExtrinsics } from 'https://deno.land/x/polkadot@0.0.0-11/api-base/types/index.ts';
+import type { RpcInterface } from 'https://deno.land/x/polkadot@0.0.0-11/rpc-core/types/index.ts';
+import type { Metadata } from 'https://deno.land/x/polkadot@0.0.0-11/types/mod.ts';
+import type { Hash, RuntimeVersion } from 'https://deno.land/x/polkadot@0.0.0-11/types/interfaces/index.ts';
+import type { Registry, Signer } from 'https://deno.land/x/polkadot@0.0.0-11/types/types/index.ts';
 
 // A smaller interface of ApiRx, used in derive and in SubmittableExtrinsic
 export interface ApiInterfaceRx {

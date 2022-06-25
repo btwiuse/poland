@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'https://esm.sh/rxjs@7.5.5';
-import type { QueryableModuleStorage } from 'https://deno.land/x/polkadot@0.0.0-10/api-base/types/index.ts';
-import type { Vec } from 'https://deno.land/x/polkadot@0.0.0-10/types/mod.ts';
-import type { AccountId, Balance } from 'https://deno.land/x/polkadot@0.0.0-10/types/interfaces/index.ts';
-import type { PalletElectionsPhragmenVoter } from 'https://deno.land/x/polkadot@0.0.0-10/types/lookup.ts';
-import type { ITuple } from 'https://deno.land/x/polkadot@0.0.0-10/types/types/index.ts';
+import type { QueryableModuleStorage } from 'https://deno.land/x/polkadot@0.0.0-11/api-base/types/index.ts';
+import type { Vec } from 'https://deno.land/x/polkadot@0.0.0-11/types/mod.ts';
+import type { AccountId, Balance } from 'https://deno.land/x/polkadot@0.0.0-11/types/interfaces/index.ts';
+import type { PalletElectionsPhragmenVoter } from 'https://deno.land/x/polkadot@0.0.0-11/types/lookup.ts';
+import type { ITuple } from 'https://deno.land/x/polkadot@0.0.0-11/types/types/index.ts';
 import type { DeriveApi, DeriveCouncilVote, DeriveCouncilVotes } from '../types.ts';
 
 import { combineLatest, map, of } from 'https://esm.sh/rxjs@7.5.5';

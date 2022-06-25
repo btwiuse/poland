@@ -10,7 +10,7 @@
  * <BR>
  *
  * ```javascript
- * import { isNumber } from 'https://deno.land/x/polkadot@0.0.0-10/util/mod.ts';
+ * import { isNumber } from 'https://deno.land/x/polkadot@0.0.0-11/util/mod.ts';
  *
  * console.log('isNumber', isNumber(1234)); // => true
  * ```

@@ -2,24 +2,24 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'https://esm.sh/rxjs@7.5.5';
-import type { DeriveCustom } from 'https://deno.land/x/polkadot@0.0.0-10/api-base/types/index.ts';
-import type { RpcInterface } from 'https://deno.land/x/polkadot@0.0.0-10/rpc-core/types/index.ts';
-import type { Option, Raw, StorageKey, Text, u64 } from 'https://deno.land/x/polkadot@0.0.0-10/types/mod.ts';
-import type { Call, Hash, RuntimeVersion } from 'https://deno.land/x/polkadot@0.0.0-10/types/interfaces/index.ts';
-import type { DecoratedMeta } from 'https://deno.land/x/polkadot@0.0.0-10/types/metadata/decorate/types.ts';
-import type { StorageEntry } from 'https://deno.land/x/polkadot@0.0.0-10/types/primitive/types.ts';
-import type { AnyFunction, AnyTuple, CallFunction, Codec, DefinitionRpc, DefinitionRpcSub, DetectCodec, IMethod, IStorageKey, Registry, RegistryError, RegistryTypes } from 'https://deno.land/x/polkadot@0.0.0-10/types/types/index.ts';
+import type { DeriveCustom } from 'https://deno.land/x/polkadot@0.0.0-11/api-base/types/index.ts';
+import type { RpcInterface } from 'https://deno.land/x/polkadot@0.0.0-11/rpc-core/types/index.ts';
+import type { Option, Raw, StorageKey, Text, u64 } from 'https://deno.land/x/polkadot@0.0.0-11/types/mod.ts';
+import type { Call, Hash, RuntimeVersion } from 'https://deno.land/x/polkadot@0.0.0-11/types/interfaces/index.ts';
+import type { DecoratedMeta } from 'https://deno.land/x/polkadot@0.0.0-11/types/metadata/decorate/types.ts';
+import type { StorageEntry } from 'https://deno.land/x/polkadot@0.0.0-11/types/primitive/types.ts';
+import type { AnyFunction, AnyTuple, CallFunction, Codec, DefinitionRpc, DefinitionRpcSub, DetectCodec, IMethod, IStorageKey, Registry, RegistryError, RegistryTypes } from 'https://deno.land/x/polkadot@0.0.0-11/types/types/index.ts';
 import type { SubmittableExtrinsic } from '../submittable/types.ts';
 import type { ApiDecoration, ApiInterfaceRx, ApiOptions, ApiTypes, AugmentedQuery, DecoratedErrors, DecoratedEvents, DecoratedRpc, DecorateMethod, GenericStorageEntryFunction, PaginationOptions, QueryableConsts, QueryableStorage, QueryableStorageEntry, QueryableStorageEntryAt, QueryableStorageMulti, QueryableStorageMultiArg, SubmittableExtrinsicFunction, SubmittableExtrinsics } from '../types/index.ts';
 import type { VersionedRegistry } from './types.ts';
 
 import { BehaviorSubject, combineLatest, from, map, of, switchMap, tap, toArray } from 'https://esm.sh/rxjs@7.5.5';
 
-import { getAvailableDerives } from 'https://deno.land/x/polkadot@0.0.0-10/api-derive/mod.ts';
-import { memo, RpcCore } from 'https://deno.land/x/polkadot@0.0.0-10/rpc-core/mod.ts';
-import { WsProvider } from 'https://deno.land/x/polkadot@0.0.0-10/rpc-provider/mod.ts';
-import { expandMetadata, Metadata, TypeRegistry, unwrapStorageType } from 'https://deno.land/x/polkadot@0.0.0-10/types/mod.ts';
-import { arrayChunk, arrayFlatten, assert, assertReturn, BN, compactStripLength, lazyMethod, lazyMethods, logger, nextTick, objectSpread, u8aToHex } from 'https://deno.land/x/polkadot@0.0.0-10/util/mod.ts';
+import { getAvailableDerives } from 'https://deno.land/x/polkadot@0.0.0-11/api-derive/mod.ts';
+import { memo, RpcCore } from 'https://deno.land/x/polkadot@0.0.0-11/rpc-core/mod.ts';
+import { WsProvider } from 'https://deno.land/x/polkadot@0.0.0-11/rpc-provider/mod.ts';
+import { expandMetadata, Metadata, TypeRegistry, unwrapStorageType } from 'https://deno.land/x/polkadot@0.0.0-11/types/mod.ts';
+import { arrayChunk, arrayFlatten, assert, assertReturn, BN, compactStripLength, lazyMethod, lazyMethods, logger, nextTick, objectSpread, u8aToHex } from 'https://deno.land/x/polkadot@0.0.0-11/util/mod.ts';
 
 import { createSubmittable } from '../submittable/index.ts';
 import { augmentObject } from '../util/augmentObject.ts';
@@ -135,7 +135,7 @@ export abstract class Decorate<ApiType extends ApiTypes> extends Events {
    * <BR>
    *
    * ```javascript
-   * import Api from 'https://deno.land/x/polkadot@0.0.0-10/api/promise/index.ts';
+   * import Api from 'https://deno.land/x/polkadot@0.0.0-11/api/promise/index.ts';
    *
    * const api = new Api().isReady();
    *

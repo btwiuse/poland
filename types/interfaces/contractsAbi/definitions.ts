@@ -3,7 +3,7 @@
 
 import type { Definitions } from '../../types/index.ts';
 
-import { objectSpread } from 'https://deno.land/x/polkadot@0.0.0-10/util/mod.ts';
+import { objectSpread } from 'https://deno.land/x/polkadot@0.0.0-11/util/mod.ts';
 
 // order important in structs... :)
 /* eslint-disable sort-keys */

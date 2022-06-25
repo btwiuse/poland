@@ -13,5 +13,5 @@ yarn add @polkadot/util
 Functions can be imported directly from the package, e.g.
 
 ```js
-import { isHex } from 'https://deno.land/x/polkadot@0.0.0-10/util/mod.ts';
+import { isHex } from 'https://deno.land/x/polkadot@0.0.0-11/util/mod.ts';
 ```
